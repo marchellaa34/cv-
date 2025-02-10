@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Profil</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .cv-container {
+            display: flex;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 900px;
+        }
+        .cv-left {
+            background-color: #3e4e56;
+            color: white;
+            padding: 20px;
+            width: 35%;
+            text-align: center;
+        }
+        .cv-left img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .cv-left h2 {
+            margin-bottom: 10px;
+        }
+        .cv-left p {
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .cv-left .section {
+            margin-bottom: 20px;
+        }
+        .cv-left .section h3 {
+            border-bottom: 1px solid white;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .cv-left .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .cv-left .section ul li {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .cv-right {
+            padding: 20px;
+            width: 65%;
+        }
+        .cv-right .section {
+            margin-bottom: 20px;
+        }
+        .cv-right .section h3 {
+            border-bottom: 2px solid #3e4e56;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .cv-right .section p, .cv-right .section ul {
+            font-size: 14px;
+            color: #333;
+        }
+        .cv-right .section ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 20px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="cv-left">
+            <img src="foto.jpeg" alt="Foto Profil">
+            <h2>Marchella Nabil Isnanda</h2>
+            <p>Rekayasa Perangkat Lunak</p>
+
+            <div class="section">
+                <h3>Kontak</h3>
+                <ul>
+                    <li>+6288225042785</li>
+                    <li>hello@reallygreatsite.com</li>
+                    <li>www.reallygreatsite.com</li>
+                    <li>123 Anywhere St., Any City, ST 12345</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/m4c3lla?igsh=MWt0dGk3d3ZxdmZqZw==" target="IG marsela">
+                        <i class="IG marsela"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="cv-right">
+            <div class="section">
+                <h3>Tentang Saya</h3>
+                <p>Saya adalah lulusan baru yang berdedikasi, bersemangat, dan memiliki keinginan kuat untuk berkembang dalam dunia profesional. Saya memiliki latar belakang pendidikan yang solid dan beragam pengalaman di berbagai bidang.</p>
+            </div>
+
+            <div class="section">
+                <h3>Pendidikan</h3>
+                <ul>
+                    <li>SMPN 1 Kalikajar (2020-2023)</li>
+                    <li>SMKN 1 Wonosobo (2023-2026 | Rekayasa Perangkat Lunak)
+                        <ul>
+                            <li>Mendalami pemrograman berbasis web dan desktop</li>
+                            <li>Belajar pengembangan aplikasi mobile</li>
+                            <li>Pengalaman praktik industri di perusahaan teknologi</li>
+                        </ul>
+                    </li>
+                    <li>Universitas Borcelle (2023-Sekarang | S1 Teknik Informatika)
+                        <ul>
+                            <li>Pengembangan Perangkat Lunak</li>
+                            <li>Sistem Informasi dan Jaringan Komputer</li>
+                            <li>Analisis Data dan Keamanan Informasi</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>Pengalaman Kerja</h3>
+                <ul>
+                    <li>Magang di PT. Teknologi Nusantara (2021 | Web Developer)
+                        <ul>
+                            <li>Merancang dan mengembangkan aplikasi e-commerce menggunakan Laravel</li>
+                            <li>Meningkatkan kinerja website hingga 20%</li>
+                        </ul>
+                    </li>
+                    <li>Freelance Programmer (2022-2023)
+                        <ul>
+                            <li>Mengembangkan aplikasi inventaris berbasis web untuk UMKM</li>
+                            <li>Melakukan debugging dan optimisasi aplikasi</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
